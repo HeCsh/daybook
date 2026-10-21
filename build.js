@@ -27,6 +27,7 @@ const seed = fs.existsSync(path.join(__dirname, 'seed.json')) ? fs.readFileSync(
 const page = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><title>Daybook</title></head><body>
 <script>window.DAYBOOK_SEED=${seed.replace(/</g, '\\u003c')};</script>
 ${app}
+<script>(() => { const f = document.querySelector('.foot'); if (!f) return; const b = document.createElement('button'); b.className = 'pill'; b.textContent = 'Lock'; b.title = 'Ask for the password again'; b.onclick = () => { try { sessionStorage.removeItem('dbk'); } catch {} location.reload(); }; f.appendChild(b); })();</script>
 </body></html>`;
 
 const salt = crypto.randomBytes(16), iv = crypto.randomBytes(12);

@@ -1,0 +1,608 @@
+{
+ "updated": "2026-10-21T00:58:35.750Z",
+ "feeds": [
+  {
+   "id": "realmadrid",
+   "asOf": "Oct 20, 2026",
+   "coach": "José Mourinho",
+   "liga": {
+    "pos": 3,
+    "points": 21,
+    "played": 9,
+    "top5": [
+     {
+      "pos": 1,
+      "team": "Barcelona",
+      "points": 27
+     },
+     {
+      "pos": 2,
+      "team": "Atlético Madrid",
+      "points": 22
+     },
+     {
+      "pos": 3,
+      "team": "Real Madrid",
+      "points": 21
+     },
+     {
+      "pos": 4,
+      "team": "Real Betis",
+      "points": 19
+     },
+     {
+      "pos": 5,
+      "team": "Real Sociedad",
+      "points": 16
+     }
+    ]
+   },
+   "ucl": {
+    "pos": 9,
+    "points": 6
+   },
+   "recent": [
+    {
+     "date": "2026-10-18",
+     "home": "Real Madrid",
+     "away": "Sevilla",
+     "hs": 4,
+     "as": 1,
+     "comp": "La Liga",
+     "scorers": "Güler 30', Mbappé 37', 63' pen, Diomande 82'"
+    },
+    {
+     "date": "2026-10-14",
+     "home": "AS Roma",
+     "away": "Real Madrid",
+     "hs": 3,
+     "as": 4,
+     "comp": "Champions League",
+     "scorers": "Mbappé 25', Espí 83', Endrick 85', Rüdiger 90'"
+    },
+    {
+     "date": "2026-10-10",
+     "home": "Real Madrid",
+     "away": "Villarreal",
+     "hs": 1,
+     "as": 0,
+     "comp": "La Liga",
+     "scorers": "Diomande 62'"
+    },
+    {
+     "date": "2026-09-20",
+     "home": "Atlético Madrid",
+     "away": "Real Madrid",
+     "hs": 2,
+     "as": 1,
+     "comp": "La Liga",
+     "scorers": "Rüdiger 89'"
+    },
+    {
+     "date": "2026-09-15",
+     "home": "Elche",
+     "away": "Real Madrid",
+     "hs": 2,
+     "as": 3,
+     "comp": "La Liga",
+     "scorers": "Mbappé 33', Espí 90'+1'"
+    },
+    {
+     "date": "2026-09-12",
+     "home": "Real Madrid",
+     "away": "Rayo Vallecano",
+     "hs": 4,
+     "as": 1,
+     "comp": "La Liga",
+     "scorers": "Mbappé 14' pen, 90'+1', Carreras 17', Bellingham 35'"
+    }
+   ],
+   "upcoming": [
+    {
+     "date": "2026-10-21",
+     "time": "12:00 PT",
+     "home": "Real Madrid",
+     "away": "RB Leipzig",
+     "comp": "Champions League"
+    },
+    {
+     "date": "2026-10-25",
+     "time": "13:00 PT",
+     "home": "Barcelona",
+     "away": "Real Madrid",
+     "comp": "La Liga · El Clásico"
+    },
+    {
+     "date": "2026-11-01",
+     "time": "07:15 PT",
+     "home": "Racing Santander",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2026-11-04",
+     "time": "09:45 PT",
+     "home": "AEK Athens",
+     "away": "Real Madrid",
+     "comp": "Champions League"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "12:00 PT",
+     "home": "Valencia",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2026-11-22",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Celta Vigo",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2026-11-24",
+     "time": "12:00 PT",
+     "home": "Real Madrid",
+     "away": "PSV Eindhoven",
+     "comp": "Champions League"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Alavés",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2026-12-06",
+     "time": "",
+     "home": "Athletic Club",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2026-12-09",
+     "time": "12:00 PT",
+     "home": "Arsenal",
+     "away": "Real Madrid",
+     "comp": "Champions League"
+    },
+    {
+     "date": "2026-12-13",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Osasuna",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2026-12-20",
+     "time": "",
+     "home": "Deportivo",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-01-03",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Getafe",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-01-10",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Levante",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-01-17",
+     "time": "",
+     "home": "Málaga",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-01-19",
+     "time": "12:00 PT",
+     "home": "Real Madrid",
+     "away": "LASK Linz",
+     "comp": "Champions League"
+    },
+    {
+     "date": "2027-01-24",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Real Betis",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-01-27",
+     "time": "12:00 PT",
+     "home": "Shakhtar Donetsk",
+     "away": "Real Madrid",
+     "comp": "Champions League"
+    },
+    {
+     "date": "2027-01-31",
+     "time": "",
+     "home": "Rayo Vallecano",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-02-03",
+     "time": "11:00 PT",
+     "home": "Real Sociedad",
+     "away": "Real Madrid",
+     "comp": "Supercopa"
+    },
+    {
+     "date": "2027-02-07",
+     "time": "",
+     "home": "Real Sociedad",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-02-14",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Athletic Club",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-02-21",
+     "time": "",
+     "home": "Sevilla",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-02-28",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Valencia",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-03-07",
+     "time": "",
+     "home": "Villarreal",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-03-14",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Espanyol",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-03-21",
+     "time": "",
+     "home": "Celta Vigo",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-04-04",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Atlético Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-04-11",
+     "time": "",
+     "home": "Osasuna",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-04-18",
+     "time": "",
+     "home": "Getafe",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-04-21",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Elche",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-05-02",
+     "time": "",
+     "home": "Levante",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-05-09",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Barcelona",
+     "comp": "La Liga · El Clásico"
+    },
+    {
+     "date": "2027-05-16",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Racing Santander",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-05-23",
+     "time": "",
+     "home": "Alavés",
+     "away": "Real Madrid",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2027-05-30",
+     "time": "",
+     "home": "Real Madrid",
+     "away": "Deportivo",
+     "comp": "La Liga"
+    }
+   ],
+   "updated": "2026-10-21T00:58:35.750Z"
+  },
+  {
+   "id": "f1",
+   "asOf": "after the Singapore GP (Oct 11)",
+   "round": 17,
+   "totalRounds": 23,
+   "drivers": [
+    {
+     "pos": 1,
+     "name": "Andrea Kimi Antonelli",
+     "team": "Mercedes",
+     "points": 340
+    },
+    {
+     "pos": 2,
+     "name": "George Russell",
+     "team": "Mercedes",
+     "points": 238
+    },
+    {
+     "pos": 3,
+     "name": "Lewis Hamilton",
+     "team": "Ferrari",
+     "points": 229
+    },
+    {
+     "pos": 4,
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "points": 221
+    },
+    {
+     "pos": 5,
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "points": 215
+    },
+    {
+     "pos": 6,
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "points": 201
+    },
+    {
+     "pos": 7,
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "points": 138
+    },
+    {
+     "pos": 8,
+     "name": "Isack Hadjar",
+     "team": "Red Bull Racing",
+     "points": 97
+    },
+    {
+     "pos": 9,
+     "name": "Liam Lawson",
+     "team": "Racing Bulls",
+     "points": 75
+    },
+    {
+     "pos": 10,
+     "name": "Pierre Gasly",
+     "team": "Alpine",
+     "points": 41
+    },
+    {
+     "pos": 11,
+     "name": "Arvid Lindblad",
+     "team": "Racing Bulls",
+     "points": 38
+    },
+    {
+     "pos": 12,
+     "name": "Franco Colapinto",
+     "team": "Alpine",
+     "points": 27
+    },
+    {
+     "pos": 13,
+     "name": "Oliver Bearman",
+     "team": "Haas",
+     "points": 23
+    },
+    {
+     "pos": 14,
+     "name": "Nico Hülkenberg",
+     "team": "Audi",
+     "points": 13
+    },
+    {
+     "pos": 15,
+     "name": "Gabriel Bortoleto",
+     "team": "Audi",
+     "points": 10
+    },
+    {
+     "pos": 16,
+     "name": "Esteban Ocon",
+     "team": "Haas",
+     "points": 7
+    },
+    {
+     "pos": 17,
+     "name": "Fernando Alonso",
+     "team": "Aston Martin",
+     "points": 7
+    },
+    {
+     "pos": 18,
+     "name": "Carlos Sainz",
+     "team": "Williams",
+     "points": 7
+    },
+    {
+     "pos": 19,
+     "name": "Alexander Albon",
+     "team": "Williams",
+     "points": 5
+    },
+    {
+     "pos": 20,
+     "name": "Yuki Tsunoda",
+     "team": "Racing Bulls",
+     "points": 1
+    },
+    {
+     "pos": 21,
+     "name": "Lance Stroll",
+     "team": "Aston Martin",
+     "points": 0
+    },
+    {
+     "pos": 22,
+     "name": "Valtteri Bottas",
+     "team": "Cadillac",
+     "points": 0
+    },
+    {
+     "pos": 23,
+     "name": "Sergio Pérez",
+     "team": "Cadillac",
+     "points": 0
+    }
+   ],
+   "constructors": [
+    {
+     "pos": 1,
+     "team": "Mercedes",
+     "points": 578
+    },
+    {
+     "pos": 2,
+     "team": "Ferrari",
+     "points": 444
+    },
+    {
+     "pos": 3,
+     "team": "McLaren",
+     "points": 339
+    },
+    {
+     "pos": 4,
+     "team": "Red Bull Racing",
+     "points": 332
+    },
+    {
+     "pos": 5,
+     "team": "Racing Bulls",
+     "points": 100
+    },
+    {
+     "pos": 6,
+     "team": "Alpine",
+     "points": 68
+    },
+    {
+     "pos": 7,
+     "team": "Haas",
+     "points": 30
+    },
+    {
+     "pos": 8,
+     "team": "Audi",
+     "points": 23
+    },
+    {
+     "pos": 9,
+     "team": "Williams",
+     "points": 12
+    },
+    {
+     "pos": 10,
+     "team": "Aston Martin",
+     "points": 7
+    },
+    {
+     "pos": 11,
+     "team": "Cadillac",
+     "points": 0
+    }
+   ],
+   "lastRace": {
+    "name": "Singapore Grand Prix",
+    "date": "2026-10-11",
+    "podium": [
+     "Max Verstappen · Red Bull Racing",
+     "Charles Leclerc · Ferrari",
+     "Andrea Kimi Antonelli · Mercedes"
+    ]
+   },
+   "upcoming": [
+    {
+     "date": "2026-10-25",
+     "name": "United States Grand Prix",
+     "place": "Circuit of the Americas, Austin",
+     "sprint": false
+    },
+    {
+     "date": "2026-11-01",
+     "name": "Mexico City Grand Prix",
+     "place": "Autódromo Hermanos Rodríguez, Mexico City",
+     "sprint": false
+    },
+    {
+     "date": "2026-11-08",
+     "name": "Brazilian Grand Prix",
+     "place": "Autódromo José Carlos Pace, São Paulo",
+     "sprint": false
+    },
+    {
+     "date": "2026-11-22",
+     "name": "Las Vegas Grand Prix",
+     "place": "Las Vegas Strip Street Circuit, Las Vegas",
+     "sprint": false
+    },
+    {
+     "date": "2026-11-29",
+     "name": "Qatar Grand Prix",
+     "place": "Lusail International Circuit, Lusail",
+     "sprint": false
+    },
+    {
+     "date": "2026-12-06",
+     "name": "Abu Dhabi Grand Prix",
+     "place": "Yas Marina Circuit, Abu Dhabi",
+     "sprint": false
+    }
+   ],
+   "updated": "2026-10-21T00:58:35.750Z"
+  }
+ ]
+}

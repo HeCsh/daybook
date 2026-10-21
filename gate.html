@@ -31,19 +31,27 @@ button:hover{background:#E0483B}button:disabled{opacity:.6;cursor:default}
 </main>
 <script>
 const P = __PAYLOAD__;
+const SK = 'dbk';  // the derived key (never the password) is kept for this tab only, so a reload does not ask again
 const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
-async function unlock(pw){
+const show = html => { document.open(); document.write(html); document.close(); };
+const decrypt = async key => new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-GCM', iv:b64(P.v)}, key, b64(P.d)));
+async function derive(pw){
   const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pw), 'PBKDF2', false, ['deriveKey']);
-  const key = await crypto.subtle.deriveKey({name:'PBKDF2', salt:b64(P.s), iterations:P.i, hash:'SHA-256'}, base, {name:'AES-GCM', length:256}, false, ['decrypt']);
-  return new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-GCM', iv:b64(P.v)}, key, b64(P.d)));
+  return crypto.subtle.deriveKey({name:'PBKDF2', salt:b64(P.s), iterations:P.i, hash:'SHA-256'}, base, {name:'AES-GCM', length:256}, true, ['decrypt']);
 }
+window.addEventListener('load', async () => {  // after load, so the page can be replaced safely
+  try { const raw = sessionStorage.getItem(SK); if (!raw) return;
+    show(await decrypt(await crypto.subtle.importKey('raw', b64(raw), 'AES-GCM', false, ['decrypt']))); }
+  catch { try { sessionStorage.removeItem(SK); } catch {} }
+});
 const f = document.getElementById('f'), err = document.getElementById('err'), go = document.getElementById('go');
 f.addEventListener('submit', async e => {
   e.preventDefault(); err.textContent = ''; go.disabled = true; go.textContent = 'Opening…';
-  let html;
-  try { html = await unlock(document.getElementById('pw').value); }
+  let key, html;
+  try { key = await derive(document.getElementById('pw').value); html = await decrypt(key); }
   catch { go.disabled = false; go.textContent = 'Open'; err.textContent = window.crypto && crypto.subtle ? 'That password is not right.' : 'This page needs a secure (https) connection.';
     const c = document.getElementById('card'); c.classList.remove('shake'); void c.offsetWidth; c.classList.add('shake'); document.getElementById('pw').select(); return; }
-  document.open(); document.write(html); document.close();
+  try { sessionStorage.setItem(SK, btoa(String.fromCharCode(...new Uint8Array(await crypto.subtle.exportKey('raw', key))))); } catch {}
+  show(html);
 });
 </script></body></html>
