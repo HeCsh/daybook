@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T18:42:57.138Z",
+ "updated": "2026-10-21T23:25:07.059Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -38,10 +38,19 @@
     ]
    },
    "ucl": {
-    "pos": 10,
-    "points": 6
+    "pos": 4,
+    "points": 9
    },
    "recent": [
+    {
+     "date": "2026-10-21",
+     "home": "Real Madrid",
+     "away": "RB Leipzig",
+     "hs": 4,
+     "as": 1,
+     "comp": "Champions League",
+     "scorers": "Silva 43', Güler 52', Mbappé 83', Diomande 87'"
+    },
     {
      "date": "2026-10-18",
      "home": "Real Madrid",
@@ -86,25 +95,9 @@
      "as": 3,
      "comp": "La Liga",
      "scorers": "Mbappé 33', Espí 90'+1'"
-    },
-    {
-     "date": "2026-09-12",
-     "home": "Real Madrid",
-     "away": "Rayo Vallecano",
-     "hs": 4,
-     "as": 1,
-     "comp": "La Liga",
-     "scorers": "Mbappé 14' pen, 90'+1', Carreras 17', Bellingham 35'"
     }
    ],
    "upcoming": [
-    {
-     "date": "2026-10-21",
-     "time": "12:00 PT",
-     "home": "Real Madrid",
-     "away": "RB Leipzig",
-     "comp": "Champions League"
-    },
     {
      "date": "2026-10-25",
      "time": "13:00 PT",
@@ -351,7 +344,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-10-21T18:42:57.138Z"
+   "updated": "2026-10-21T23:25:07.059Z"
   },
   {
    "id": "f1",
@@ -602,7 +595,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-10-21T18:42:57.138Z"
+   "updated": "2026-10-21T23:25:07.059Z"
   }
  ]
 }
