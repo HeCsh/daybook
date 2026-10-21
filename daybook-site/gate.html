@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#7E78C4"><title>Daybook</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&family=Shantell+Sans:wght@500;700&display=swap">
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;font-family:"Shantell Sans",system-ui,sans-serif;color:#1F2633;background:linear-gradient(180deg,#7E78C4,#F4A77A 75%) fixed #F4A77A}
+.card{width:min(400px,100%);background:#FBF7EE;border:1.5px solid #1F263324;border-radius:26px;box-shadow:3px 4px 0 #1F26331F;padding:32px 26px 26px;text-align:center}
+.lock{width:64px;height:64px;margin:0 auto 14px;border-radius:50%;background:#E6762A55;display:grid;place-items:center}
+.lock svg{width:30px;height:30px}
+h1{margin:0;font-family:"Sniglet",system-ui,sans-serif;font-weight:800;font-size:40px;line-height:1}
+p{margin:8px 0 20px;color:#5B6474;font-weight:700}
+form{display:grid;gap:10px}
+input{font:inherit;font-weight:700;border:1.5px solid transparent;background:#F1EBDD;border-radius:999px;padding:12px 18px;text-align:center;width:100%}
+input:focus{outline:none;border-color:#1F2633}
+button{font:inherit;font-weight:800;border:0;border-radius:999px;padding:12px 18px;background:#1F2633;color:#FBF7EE;cursor:pointer}
+button:hover{background:#E0483B}button:disabled{opacity:.6;cursor:default}
+.err{min-height:20px;margin:12px 0 0;color:#E0483B;font-weight:800;font-size:14px}
+.shake{animation:sh .35s}@keyframes sh{20%,60%{transform:translateX(-7px)}40%,80%{transform:translateX(7px)}}
+</style></head><body>
+<main class="card" id="card">
+  <div class="lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
+  <h1>Daybook</h1><p>Enter the password to open it.</p>
+  <form id="f" autocomplete="on">
+    <input type="text" name="username" value="daybook" autocomplete="username" hidden>
+    <input id="pw" type="password" name="password" placeholder="Password" autocomplete="current-password" aria-label="Password" required autofocus>
+    <button id="go" type="submit">Open</button>
+  </form>
+  <p class="err" id="err" role="alert"></p>
+</main>
+<script>
+const P = __PAYLOAD__;
+const SK = 'dbk';  // the derived key (never the password) is kept for this tab only, so a reload does not ask again
+const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+const show = html => { document.open(); document.write(html); document.close(); };
+const decrypt = async key => new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-GCM', iv:b64(P.v)}, key, b64(P.d)));
+async function derive(pw){
+  const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pw), 'PBKDF2', false, ['deriveKey']);
+  return crypto.subtle.deriveKey({name:'PBKDF2', salt:b64(P.s), iterations:P.i, hash:'SHA-256'}, base, {name:'AES-GCM', length:256}, true, ['decrypt']);
+}
+window.addEventListener('load', async () => {  // after load, so the page can be replaced safely
+  try { const raw = sessionStorage.getItem(SK); if (!raw) return;
+    show(await decrypt(await crypto.subtle.importKey('raw', b64(raw), 'AES-GCM', false, ['decrypt']))); }
+  catch { try { sessionStorage.removeItem(SK); } catch {} }
+});
+const f = document.getElementById('f'), err = document.getElementById('err'), go = document.getElementById('go');
+f.addEventListener('submit', async e => {
+  e.preventDefault(); err.textContent = ''; go.disabled = true; go.textContent = 'Opening…';
+  let key, html;
+  try { key = await derive(document.getElementById('pw').value); html = await decrypt(key); }
+  catch { go.disabled = false; go.textContent = 'Open'; err.textContent = window.crypto && crypto.subtle ? 'That password is not right.' : 'This page needs a secure (https) connection.';
+    const c = document.getElementById('card'); c.classList.remove('shake'); void c.offsetWidth; c.classList.add('shake'); document.getElementById('pw').select(); return; }
+  try { sessionStorage.setItem(SK, btoa(String.fromCharCode(...new Uint8Array(await crypto.subtle.exportKey('raw', key))))); } catch {}
+  show(html);
+});
+</script></body></html>

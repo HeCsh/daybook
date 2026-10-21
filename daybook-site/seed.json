@@ -1,0 +1,383 @@
+{
+ "feeds": [
+  {
+   "id": "realmadrid",
+   "asOf": "Oct 18, 2026",
+   "coach": "José Mourinho",
+   "liga": {
+    "played": 9,
+    "points": 21,
+    "pos": 3,
+    "top5": [
+     {
+      "points": 27,
+      "pos": 1,
+      "team": "Barcelona"
+     },
+     {
+      "points": 22,
+      "pos": 2,
+      "team": "Atlético Madrid"
+     },
+     {
+      "points": 21,
+      "pos": 3,
+      "team": "Real Madrid"
+     },
+     {
+      "points": 19,
+      "pos": 4,
+      "team": "Real Betis"
+     },
+     {
+      "points": 16,
+      "pos": 5,
+      "team": "Real Sociedad"
+     }
+    ]
+   },
+   "recent": [
+    {
+     "as": 1,
+     "away": "Sevilla",
+     "comp": "La Liga",
+     "date": "2026-10-18",
+     "home": "Real Madrid",
+     "hs": 4,
+     "scorers": "Güler 30', Mbappé 37', 63' pen, Diomande 82'"
+    },
+    {
+     "as": 4,
+     "away": "Real Madrid",
+     "comp": "Champions League",
+     "date": "2026-10-14",
+     "home": "AS Roma",
+     "hs": 3,
+     "scorers": "Mbappé 25', Espí 83', Endrick 85', Rüdiger 90'"
+    },
+    {
+     "as": 0,
+     "away": "Villarreal",
+     "comp": "La Liga",
+     "date": "2026-10-10",
+     "home": "Real Madrid",
+     "hs": 1,
+     "scorers": "Diomande 62'"
+    },
+    {
+     "as": 1,
+     "away": "Real Madrid",
+     "comp": "La Liga",
+     "date": "2026-09-20",
+     "home": "Atlético Madrid",
+     "hs": 2,
+     "scorers": "Huijsen 52'"
+    },
+    {
+     "as": 3,
+     "away": "Real Madrid",
+     "comp": "La Liga",
+     "date": "2026-09-15",
+     "home": "Elche",
+     "hs": 2,
+     "scorers": "Dituro OG 25', Mbappé 33', Espí 90+1'"
+    },
+    {
+     "as": 1,
+     "away": "Rayo Vallecano",
+     "comp": "La Liga",
+     "date": "2026-09-12",
+     "home": "Real Madrid",
+     "hs": 4,
+     "scorers": "Mbappé 14' pen, 90+1', Carreras 17', Bellingham 35'"
+    }
+   ],
+   "ucl": {
+    "points": 6,
+    "pos": 8
+   },
+   "upcoming": [
+    {
+     "away": "RB Leipzig",
+     "comp": "Champions League",
+     "date": "2026-10-21",
+     "home": "Real Madrid",
+     "time": "12:00 PT"
+    },
+    {
+     "away": "Real Madrid",
+     "comp": "La Liga · El Clásico",
+     "date": "2026-10-25",
+     "home": "Barcelona",
+     "time": "13:00 PT"
+    },
+    {
+     "away": "Real Madrid",
+     "comp": "La Liga",
+     "date": "2026-11-01",
+     "home": "Racing Santander",
+     "time": "07:15 PT"
+    },
+    {
+     "away": "Real Madrid",
+     "comp": "Champions League",
+     "date": "2026-11-04",
+     "home": "AEK Athens",
+     "time": "09:45 PT"
+    }
+   ],
+   "updated": "2026-10-18"
+  },
+  {
+   "id": "f1",
+   "asOf": "after the Singapore GP (Oct 11)",
+   "constructors": [
+    {
+     "points": 578,
+     "pos": 1,
+     "team": "Mercedes"
+    },
+    {
+     "points": 444,
+     "pos": 2,
+     "team": "Ferrari"
+    },
+    {
+     "points": 339,
+     "pos": 3,
+     "team": "McLaren"
+    },
+    {
+     "points": 332,
+     "pos": 4,
+     "team": "Red Bull Racing"
+    },
+    {
+     "points": 100,
+     "pos": 5,
+     "team": "Racing Bulls"
+    },
+    {
+     "points": 68,
+     "pos": 6,
+     "team": "Alpine"
+    },
+    {
+     "points": 30,
+     "pos": 7,
+     "team": "Haas"
+    },
+    {
+     "points": 23,
+     "pos": 8,
+     "team": "Audi"
+    },
+    {
+     "points": 12,
+     "pos": 9,
+     "team": "Williams"
+    },
+    {
+     "points": 7,
+     "pos": 10,
+     "team": "Aston Martin"
+    },
+    {
+     "points": 0,
+     "pos": 11,
+     "team": "Cadillac"
+    }
+   ],
+   "drivers": [
+    {
+     "name": "Andrea Kimi Antonelli",
+     "points": 340,
+     "pos": 1,
+     "team": "Mercedes"
+    },
+    {
+     "name": "George Russell",
+     "points": 238,
+     "pos": 2,
+     "team": "Mercedes"
+    },
+    {
+     "name": "Lewis Hamilton",
+     "points": 229,
+     "pos": 3,
+     "team": "Ferrari"
+    },
+    {
+     "name": "Max Verstappen",
+     "points": 221,
+     "pos": 4,
+     "team": "Red Bull Racing"
+    },
+    {
+     "name": "Charles Leclerc",
+     "points": 215,
+     "pos": 5,
+     "team": "Ferrari"
+    },
+    {
+     "name": "Lando Norris",
+     "points": 201,
+     "pos": 6,
+     "team": "McLaren"
+    },
+    {
+     "name": "Oscar Piastri",
+     "points": 138,
+     "pos": 7,
+     "team": "McLaren"
+    },
+    {
+     "name": "Isack Hadjar",
+     "points": 97,
+     "pos": 8,
+     "team": "Red Bull Racing"
+    },
+    {
+     "name": "Liam Lawson",
+     "points": 75,
+     "pos": 9,
+     "team": "Racing Bulls"
+    },
+    {
+     "name": "Pierre Gasly",
+     "points": 41,
+     "pos": 10,
+     "team": "Alpine"
+    },
+    {
+     "name": "Arvid Lindblad",
+     "points": 38,
+     "pos": 11,
+     "team": "Racing Bulls"
+    },
+    {
+     "name": "Franco Colapinto",
+     "points": 27,
+     "pos": 12,
+     "team": "Alpine"
+    },
+    {
+     "name": "Oliver Bearman",
+     "points": 23,
+     "pos": 13,
+     "team": "Haas"
+    },
+    {
+     "name": "Nico Hulkenberg",
+     "points": 13,
+     "pos": 14,
+     "team": "Audi"
+    },
+    {
+     "name": "Gabriel Bortoleto",
+     "points": 10,
+     "pos": 15,
+     "team": "Audi"
+    },
+    {
+     "name": "Esteban Ocon",
+     "points": 7,
+     "pos": 16,
+     "team": "Haas"
+    },
+    {
+     "name": "Fernando Alonso",
+     "points": 7,
+     "pos": 17,
+     "team": "Aston Martin"
+    },
+    {
+     "name": "Carlos Sainz",
+     "points": 7,
+     "pos": 18,
+     "team": "Williams"
+    },
+    {
+     "name": "Alexander Albon",
+     "points": 5,
+     "pos": 19,
+     "team": "Williams"
+    },
+    {
+     "name": "Yuki Tsunoda",
+     "points": 1,
+     "pos": 20,
+     "team": "Racing Bulls"
+    },
+    {
+     "name": "Lance Stroll",
+     "points": 0,
+     "pos": 21,
+     "team": "Aston Martin"
+    },
+    {
+     "name": "Valtteri Bottas",
+     "points": 0,
+     "pos": 22,
+     "team": "Cadillac"
+    },
+    {
+     "name": "Sergio Perez",
+     "points": 0,
+     "pos": 23,
+     "team": "Cadillac"
+    }
+   ],
+   "lastRace": {
+    "date": "2026-10-11",
+    "name": "Singapore Grand Prix",
+    "podium": [
+     "Max Verstappen · Red Bull Racing",
+     "Charles Leclerc · Ferrari",
+     "Andrea Kimi Antonelli · Mercedes"
+    ]
+   },
+   "round": 17,
+   "totalRounds": 23,
+   "upcoming": [
+    {
+     "date": "2026-10-25",
+     "name": "United States Grand Prix",
+     "place": "Circuit of the Americas, Austin",
+     "sprint": false
+    },
+    {
+     "date": "2026-11-01",
+     "name": "Mexico City Grand Prix",
+     "place": "Autódromo Hermanos Rodríguez, Mexico City",
+     "sprint": false
+    },
+    {
+     "date": "2026-11-08",
+     "name": "São Paulo Grand Prix",
+     "place": "Interlagos, São Paulo",
+     "sprint": false
+    },
+    {
+     "date": "2026-11-21",
+     "name": "Las Vegas Grand Prix",
+     "place": "Las Vegas Strip Circuit (Saturday race)",
+     "sprint": false
+    },
+    {
+     "date": "2026-11-29",
+     "name": "Qatar Grand Prix",
+     "place": "Lusail International Circuit",
+     "sprint": false
+    },
+    {
+     "date": "2026-12-06",
+     "name": "Abu Dhabi Grand Prix",
+     "place": "Yas Marina Circuit",
+     "sprint": false
+    }
+   ],
+   "updated": "2026-10-18"
+  }
+ ]
+}
