@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-21T00:58:35.750Z",
+ "updated": "2026-10-21T01:06:15.695Z",
  "feeds": [
   {
    "id": "realmadrid",
    "asOf": "Oct 20, 2026",
-   "coach": "STALE-TEST",
+   "coach": "José Mourinho",
    "liga": {
     "pos": 3,
     "points": 21,
@@ -17,7 +17,7 @@
      },
      {
       "pos": 2,
-      "team": "Atl\u00e9tico Madrid",
+      "team": "Atlético Madrid",
       "points": 22
      },
      {
@@ -49,7 +49,7 @@
      "hs": 4,
      "as": 1,
      "comp": "La Liga",
-     "scorers": "G\u00fcler 30', Mbapp\u00e9 37', 63' pen, Diomande 82'"
+     "scorers": "Güler 30', Mbappé 37', 63' pen, Diomande 82'"
     },
     {
      "date": "2026-10-14",
@@ -58,7 +58,7 @@
      "hs": 3,
      "as": 4,
      "comp": "Champions League",
-     "scorers": "Mbapp\u00e9 25', Esp\u00ed 83', Endrick 85', R\u00fcdiger 90'"
+     "scorers": "Mbappé 25', Espí 83', Endrick 85', Rüdiger 90'"
     },
     {
      "date": "2026-10-10",
@@ -71,12 +71,12 @@
     },
     {
      "date": "2026-09-20",
-     "home": "Atl\u00e9tico Madrid",
+     "home": "Atlético Madrid",
      "away": "Real Madrid",
      "hs": 2,
      "as": 1,
      "comp": "La Liga",
-     "scorers": "R\u00fcdiger 89'"
+     "scorers": "Rüdiger 89'"
     },
     {
      "date": "2026-09-15",
@@ -85,7 +85,7 @@
      "hs": 2,
      "as": 3,
      "comp": "La Liga",
-     "scorers": "Mbapp\u00e9 33', Esp\u00ed 90'+1'"
+     "scorers": "Mbappé 33', Espí 90'+1'"
     },
     {
      "date": "2026-09-12",
@@ -94,7 +94,7 @@
      "hs": 4,
      "as": 1,
      "comp": "La Liga",
-     "scorers": "Mbapp\u00e9 14' pen, 90'+1', Carreras 17', Bellingham 35'"
+     "scorers": "Mbappé 14' pen, 90'+1', Carreras 17', Bellingham 35'"
     }
    ],
    "upcoming": [
@@ -110,7 +110,7 @@
      "time": "13:00 PT",
      "home": "Barcelona",
      "away": "Real Madrid",
-     "comp": "La Liga \u00b7 El Cl\u00e1sico"
+     "comp": "La Liga · El Clásico"
     },
     {
      "date": "2026-11-01",
@@ -151,7 +151,7 @@
      "date": "2026-11-29",
      "time": "",
      "home": "Real Madrid",
-     "away": "Alav\u00e9s",
+     "away": "Alavés",
      "comp": "La Liga"
     },
     {
@@ -199,7 +199,7 @@
     {
      "date": "2027-01-17",
      "time": "",
-     "home": "M\u00e1laga",
+     "home": "Málaga",
      "away": "Real Madrid",
      "comp": "La Liga"
     },
@@ -291,7 +291,7 @@
      "date": "2027-04-04",
      "time": "",
      "home": "Real Madrid",
-     "away": "Atl\u00e9tico Madrid",
+     "away": "Atlético Madrid",
      "comp": "La Liga"
     },
     {
@@ -327,7 +327,7 @@
      "time": "",
      "home": "Real Madrid",
      "away": "Barcelona",
-     "comp": "La Liga \u00b7 El Cl\u00e1sico"
+     "comp": "La Liga · El Clásico"
     },
     {
      "date": "2027-05-16",
@@ -339,7 +339,7 @@
     {
      "date": "2027-05-23",
      "time": "",
-     "home": "Alav\u00e9s",
+     "home": "Alavés",
      "away": "Real Madrid",
      "comp": "La Liga"
     },
@@ -351,7 +351,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-10-21T00:58:35.750Z"
+   "updated": "2026-10-21T01:06:15.695Z"
   },
   {
    "id": "f1",
@@ -439,7 +439,7 @@
     },
     {
      "pos": 14,
-     "name": "Nico H\u00fclkenberg",
+     "name": "Nico Hülkenberg",
      "team": "Audi",
      "points": 13
     },
@@ -493,7 +493,7 @@
     },
     {
      "pos": 23,
-     "name": "Sergio P\u00e9rez",
+     "name": "Sergio Pérez",
      "team": "Cadillac",
      "points": 0
     }
@@ -559,9 +559,9 @@
     "name": "Singapore Grand Prix",
     "date": "2026-10-11",
     "podium": [
-     "Max Verstappen \u00b7 Red Bull Racing",
-     "Charles Leclerc \u00b7 Ferrari",
-     "Andrea Kimi Antonelli \u00b7 Mercedes"
+     "Max Verstappen · Red Bull Racing",
+     "Charles Leclerc · Ferrari",
+     "Andrea Kimi Antonelli · Mercedes"
     ]
    },
    "upcoming": [
@@ -574,13 +574,13 @@
     {
      "date": "2026-11-01",
      "name": "Mexico City Grand Prix",
-     "place": "Aut\u00f3dromo Hermanos Rodr\u00edguez, Mexico City",
+     "place": "Autódromo Hermanos Rodríguez, Mexico City",
      "sprint": false
     },
     {
      "date": "2026-11-08",
      "name": "Brazilian Grand Prix",
-     "place": "Aut\u00f3dromo Jos\u00e9 Carlos Pace, S\u00e3o Paulo",
+     "place": "Autódromo José Carlos Pace, São Paulo",
      "sprint": false
     },
     {
@@ -602,7 +602,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-10-21T00:58:35.750Z"
+   "updated": "2026-10-21T01:06:15.695Z"
   }
  ]
 }
