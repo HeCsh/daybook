@@ -1,0 +1,4 @@
+# private inputs: the app source and the data snapshot never get committed. Only the encrypted index.html does.
+seed.json
+node_modules/
+.DS_Store
