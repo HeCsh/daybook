@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T11:11:28.821Z",
+ "updated": "2026-10-24T22:32:22.671Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -18,7 +18,7 @@
      {
       "pos": 2,
       "team": "Atlético Madrid",
-      "points": 22
+      "points": 25
      },
      {
       "pos": 3,
@@ -344,7 +344,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-10-24T11:11:28.821Z"
+   "updated": "2026-10-24T22:32:22.671Z"
   },
   {
    "id": "f1",
@@ -595,7 +595,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-10-24T11:11:28.821Z"
+   "updated": "2026-10-24T22:32:22.671Z"
   }
  ]
 }
