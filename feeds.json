@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:40:54.396Z",
+ "updated": "2026-10-25T20:56:19.695Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -28,12 +28,12 @@
      {
       "pos": 4,
       "team": "Real Betis",
-      "points": 19
+      "points": 20
      },
      {
       "pos": 5,
       "team": "Real Sociedad",
-      "points": 16
+      "points": 19
      }
     ]
    },
@@ -344,12 +344,12 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-10-25T11:40:54.396Z"
+   "updated": "2026-10-25T20:56:19.695Z"
   },
   {
    "id": "f1",
    "asOf": "after the Singapore GP (Oct 11)",
-   "round": 17,
+   "round": 18,
    "totalRounds": 23,
    "drivers": [
     {
@@ -595,7 +595,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-10-25T11:40:54.396Z"
+   "updated": "2026-10-25T20:56:19.695Z"
   }
  ]
 }
