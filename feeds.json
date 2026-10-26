@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T20:56:19.695Z",
+ "updated": "2026-10-26T00:26:31.013Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -7,8 +7,8 @@
    "coach": "José Mourinho",
    "liga": {
     "pos": 3,
-    "points": 21,
-    "played": 9,
+    "points": 24,
+    "played": 10,
     "top5": [
      {
       "pos": 1,
@@ -23,7 +23,7 @@
      {
       "pos": 3,
       "team": "Real Madrid",
-      "points": 21
+      "points": 24
      },
      {
       "pos": 4,
@@ -42,6 +42,15 @@
     "points": 9
    },
    "recent": [
+    {
+     "date": "2026-10-25",
+     "home": "Barcelona",
+     "away": "Real Madrid",
+     "hs": 1,
+     "as": 2,
+     "comp": "La Liga · El Clásico",
+     "scorers": "Mbappé 41', 87'"
+    },
     {
      "date": "2026-10-21",
      "home": "Real Madrid",
@@ -86,25 +95,9 @@
      "as": 1,
      "comp": "La Liga",
      "scorers": "Rüdiger 89'"
-    },
-    {
-     "date": "2026-09-15",
-     "home": "Elche",
-     "away": "Real Madrid",
-     "hs": 2,
-     "as": 3,
-     "comp": "La Liga",
-     "scorers": "Mbappé 33', Espí 90'+1'"
     }
    ],
    "upcoming": [
-    {
-     "date": "2026-10-25",
-     "time": "13:00 PT",
-     "home": "Barcelona",
-     "away": "Real Madrid",
-     "comp": "La Liga · El Clásico"
-    },
     {
      "date": "2026-11-01",
      "time": "07:15 PT",
@@ -344,11 +337,11 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-10-25T20:56:19.695Z"
+   "updated": "2026-10-26T00:26:31.013Z"
   },
   {
    "id": "f1",
-   "asOf": "after the Singapore GP (Oct 11)",
+   "asOf": "after the United States GP (Oct 25)",
    "round": 18,
    "totalRounds": 23,
    "drivers": [
@@ -356,61 +349,61 @@
      "pos": 1,
      "name": "Andrea Kimi Antonelli",
      "team": "Mercedes",
-     "points": 340
+     "points": 365
     },
     {
      "pos": 2,
      "name": "George Russell",
      "team": "Mercedes",
-     "points": 238
+     "points": 242
     },
     {
      "pos": 3,
      "name": "Lewis Hamilton",
      "team": "Ferrari",
-     "points": 229
+     "points": 241
     },
     {
      "pos": 4,
      "name": "Max Verstappen",
      "team": "Red Bull Racing",
-     "points": 221
+     "points": 236
     },
     {
      "pos": 5,
      "name": "Charles Leclerc",
      "team": "Ferrari",
-     "points": 215
+     "points": 233
     },
     {
      "pos": 6,
      "name": "Lando Norris",
      "team": "McLaren",
-     "points": 201
+     "points": 211
     },
     {
      "pos": 7,
      "name": "Oscar Piastri",
      "team": "McLaren",
-     "points": 138
+     "points": 144
     },
     {
      "pos": 8,
      "name": "Isack Hadjar",
      "team": "Red Bull Racing",
-     "points": 97
+     "points": 105
     },
     {
      "pos": 9,
      "name": "Liam Lawson",
      "team": "Racing Bulls",
-     "points": 75
+     "points": 77
     },
     {
      "pos": 10,
      "name": "Pierre Gasly",
      "team": "Alpine",
-     "points": 41
+     "points": 42
     },
     {
      "pos": 11,
@@ -495,32 +488,32 @@
     {
      "pos": 1,
      "team": "Mercedes",
-     "points": 578
+     "points": 607
     },
     {
      "pos": 2,
      "team": "Ferrari",
-     "points": 444
+     "points": 474
     },
     {
      "pos": 3,
-     "team": "McLaren",
-     "points": 339
+     "team": "Red Bull Racing",
+     "points": 355
     },
     {
      "pos": 4,
-     "team": "Red Bull Racing",
-     "points": 332
+     "team": "McLaren",
+     "points": 355
     },
     {
      "pos": 5,
      "team": "Racing Bulls",
-     "points": 100
+     "points": 102
     },
     {
      "pos": 6,
      "team": "Alpine",
-     "points": 68
+     "points": 69
     },
     {
      "pos": 7,
@@ -549,21 +542,15 @@
     }
    ],
    "lastRace": {
-    "name": "Singapore Grand Prix",
-    "date": "2026-10-11",
+    "name": "United States Grand Prix",
+    "date": "2026-10-25",
     "podium": [
-     "Max Verstappen · Red Bull Racing",
+     "Andrea Kimi Antonelli · Mercedes",
      "Charles Leclerc · Ferrari",
-     "Andrea Kimi Antonelli · Mercedes"
+     "Max Verstappen · Red Bull Racing"
     ]
    },
    "upcoming": [
-    {
-     "date": "2026-10-25",
-     "name": "United States Grand Prix",
-     "place": "Circuit of the Americas, Austin",
-     "sprint": false
-    },
     {
      "date": "2026-11-01",
      "name": "Mexico City Grand Prix",
@@ -595,7 +582,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-10-25T20:56:19.695Z"
+   "updated": "2026-10-26T00:26:31.013Z"
   }
  ]
 }
