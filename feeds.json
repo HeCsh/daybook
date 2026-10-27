@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T07:58:04.484Z",
+ "updated": "2026-10-27T21:21:48.686Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -337,7 +337,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-10-27T07:58:04.484Z"
+   "updated": "2026-10-27T21:21:48.686Z"
   },
   {
    "id": "f1",
@@ -550,6 +550,116 @@
      "Max Verstappen · Red Bull Racing"
     ]
    },
+   "completed": [
+    {
+     "date": "2026-03-08",
+     "name": "Australian Grand Prix",
+     "place": "Albert Park Grand Prix Circuit, Melbourne",
+     "sprint": false
+    },
+    {
+     "date": "2026-03-15",
+     "name": "Chinese Grand Prix",
+     "place": "Shanghai International Circuit, Shanghai",
+     "sprint": true
+    },
+    {
+     "date": "2026-03-29",
+     "name": "Japanese Grand Prix",
+     "place": "Suzuka Circuit, Suzuka",
+     "sprint": false
+    },
+    {
+     "date": "2026-05-03",
+     "name": "Miami Grand Prix",
+     "place": "Miami International Autodrome, Miami",
+     "sprint": true
+    },
+    {
+     "date": "2026-05-24",
+     "name": "Canadian Grand Prix",
+     "place": "Circuit Gilles Villeneuve, Montreal",
+     "sprint": true
+    },
+    {
+     "date": "2026-06-07",
+     "name": "Monaco Grand Prix",
+     "place": "Circuit de Monaco, Monte Carlo",
+     "sprint": false
+    },
+    {
+     "date": "2026-06-14",
+     "name": "Barcelona Grand Prix",
+     "place": "Circuit de Barcelona-Catalunya, Barcelona",
+     "sprint": false
+    },
+    {
+     "date": "2026-06-28",
+     "name": "Austrian Grand Prix",
+     "place": "Red Bull Ring, Spielberg",
+     "sprint": false
+    },
+    {
+     "date": "2026-07-05",
+     "name": "British Grand Prix",
+     "place": "Silverstone Circuit, Silverstone",
+     "sprint": true
+    },
+    {
+     "date": "2026-07-19",
+     "name": "Belgian Grand Prix",
+     "place": "Circuit de Spa-Francorchamps, Spa",
+     "sprint": false
+    },
+    {
+     "date": "2026-07-26",
+     "name": "Hungarian Grand Prix",
+     "place": "Hungaroring, Budapest",
+     "sprint": false
+    },
+    {
+     "date": "2026-08-23",
+     "name": "Dutch Grand Prix",
+     "place": "Circuit Park Zandvoort, Zandvoort",
+     "sprint": true
+    },
+    {
+     "date": "2026-09-06",
+     "name": "Italian Grand Prix",
+     "place": "Autodromo Nazionale di Monza, Monza",
+     "sprint": false
+    },
+    {
+     "date": "2026-09-13",
+     "name": "Spanish Grand Prix",
+     "place": "Madring, Madrid",
+     "sprint": false
+    },
+    {
+     "date": "2026-09-26",
+     "name": "Azerbaijan Grand Prix",
+     "place": "Baku City Circuit, Baku",
+     "sprint": false
+    },
+    {
+     "date": "2026-10-04",
+     "name": "Bahrain Grand Prix in Malaysia",
+     "place": "Sepang International Circuit, Kuala Lumpur",
+     "sprint": false
+    },
+    {
+     "date": "2026-10-11",
+     "name": "Singapore Grand Prix",
+     "place": "Marina Bay Street Circuit, Marina Bay",
+     "sprint": true
+    },
+    {
+     "date": "2026-10-25",
+     "name": "United States Grand Prix",
+     "place": "Circuit of the Americas, Austin",
+     "sprint": false
+    }
+   ],
    "upcoming": [
     {
      "date": "2026-11-01",
@@ -582,7 +692,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-10-27T07:58:04.484Z"
+   "updated": "2026-10-27T21:21:48.686Z"
   }
  ]
 }

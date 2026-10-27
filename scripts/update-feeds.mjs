@@ -83,6 +83,7 @@ async function f1() {
     drivers: dl.DriverStandings.map(d => ({ pos: Number(d.position), name: `${d.Driver.givenName} ${d.Driver.familyName}`, team: team(d.Constructors[0]?.name || ''), points: Number(d.points) })),
     constructors: cl.ConstructorStandings.map(c => ({ pos: Number(c.position), team: team(c.Constructor.name), points: Number(c.points) })),
     lastRace: { name: lr.raceName, date: lastDate, podium: lr.Results.slice(0, 3).map(r => `${r.Driver.givenName} ${r.Driver.familyName} · ${team(r.Constructor.name)}`) },
+    completed: races.filter(r => r.date <= lastDate).map(r => ({ date: r.date, name: r.raceName, place: `${r.Circuit.circuitName}, ${r.Circuit.Location.locality}`, sprint: !!r.Sprint })),
     upcoming: races.filter(r => r.date > lastDate).map(r => ({ date: r.date, name: r.raceName, place: `${r.Circuit.circuitName}, ${r.Circuit.Location.locality}`, sprint: !!r.Sprint })),
     updated: today.toISOString() };
 }
