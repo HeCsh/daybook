@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:37:44.212Z",
+ "updated": "2026-10-31T23:26:00.074Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -12,13 +12,13 @@
     "top5": [
      {
       "pos": 1,
-      "team": "Atlético Madrid",
-      "points": 28
+      "team": "Barcelona",
+      "points": 30
      },
      {
       "pos": 2,
-      "team": "Barcelona",
-      "points": 27
+      "team": "Atlético Madrid",
+      "points": 28
      },
      {
       "pos": 3,
@@ -28,7 +28,7 @@
      {
       "pos": 4,
       "team": "Real Betis",
-      "points": 20
+      "points": 23
      },
      {
       "pos": 5,
@@ -337,12 +337,12 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-10-31T18:37:44.212Z"
+   "updated": "2026-10-31T23:26:00.074Z"
   },
   {
    "id": "f1",
    "asOf": "after the United States GP (Oct 25)",
-   "round": 18,
+   "round": 19,
    "totalRounds": 23,
    "drivers": [
     {
@@ -481,6 +481,12 @@
      "pos": 23,
      "name": "Sergio Pérez",
      "team": "Cadillac",
+     "points": 0
+    },
+    {
+     "pos": 24,
+     "name": "Ryo Hirakawa",
+     "team": "Haas",
      "points": 0
     }
    ],
@@ -692,7 +698,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-10-31T18:37:44.212Z"
+   "updated": "2026-10-31T23:26:00.074Z"
   }
  ]
 }
