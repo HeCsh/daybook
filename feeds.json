@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T13:33:39.167Z",
+ "updated": "2026-11-01T18:58:37.871Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -7,8 +7,8 @@
    "coach": "José Mourinho",
    "liga": {
     "pos": 3,
-    "points": 24,
-    "played": 10,
+    "points": 27,
+    "played": 11,
     "top5": [
      {
       "pos": 1,
@@ -23,7 +23,7 @@
      {
       "pos": 3,
       "team": "Real Madrid",
-      "points": 24
+      "points": 27
      },
      {
       "pos": 4,
@@ -42,6 +42,15 @@
     "points": 9
    },
    "recent": [
+    {
+     "date": "2026-11-01",
+     "home": "Racing Santander",
+     "away": "Real Madrid",
+     "hs": 0,
+     "as": 3,
+     "comp": "La Liga",
+     "scorers": "Mbappé 11' pen, Bellingham 21', Diomande 36'"
+    },
     {
      "date": "2026-10-25",
      "home": "Barcelona",
@@ -86,25 +95,9 @@
      "as": 0,
      "comp": "La Liga",
      "scorers": "Diomande 62'"
-    },
-    {
-     "date": "2026-09-20",
-     "home": "Atlético Madrid",
-     "away": "Real Madrid",
-     "hs": 2,
-     "as": 1,
-     "comp": "La Liga",
-     "scorers": "Rüdiger 89'"
     }
    ],
    "upcoming": [
-    {
-     "date": "2026-11-01",
-     "time": "07:15 PT",
-     "home": "Racing Santander",
-     "away": "Real Madrid",
-     "comp": "La Liga"
-    },
     {
      "date": "2026-11-04",
      "time": "09:45 PT",
@@ -337,7 +330,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-01T13:33:39.167Z"
+   "updated": "2026-11-01T18:58:37.871Z"
   },
   {
    "id": "f1",
@@ -698,7 +691,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-01T13:33:39.167Z"
+   "updated": "2026-11-01T18:58:37.871Z"
   }
  ]
 }
