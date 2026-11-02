@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T18:58:37.871Z",
+ "updated": "2026-11-02T06:19:07.491Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -330,11 +330,11 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-01T18:58:37.871Z"
+   "updated": "2026-11-02T06:19:07.491Z"
   },
   {
    "id": "f1",
-   "asOf": "after the United States GP (Oct 25)",
+   "asOf": "after the Mexico City GP (Nov 1)",
    "round": 19,
    "totalRounds": 23,
    "drivers": [
@@ -342,43 +342,43 @@
      "pos": 1,
      "name": "Andrea Kimi Antonelli",
      "team": "Mercedes",
-     "points": 365
+     "points": 380
     },
     {
      "pos": 2,
-     "name": "George Russell",
-     "team": "Mercedes",
-     "points": 242
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "points": 261
     },
     {
      "pos": 3,
      "name": "Lewis Hamilton",
      "team": "Ferrari",
-     "points": 241
+     "points": 259
     },
     {
      "pos": 4,
-     "name": "Max Verstappen",
-     "team": "Red Bull Racing",
-     "points": 236
+     "name": "George Russell",
+     "team": "Mercedes",
+     "points": 250
     },
     {
      "pos": 5,
      "name": "Charles Leclerc",
      "team": "Ferrari",
-     "points": 233
+     "points": 245
     },
     {
      "pos": 6,
      "name": "Lando Norris",
      "team": "McLaren",
-     "points": 211
+     "points": 221
     },
     {
      "pos": 7,
      "name": "Oscar Piastri",
      "team": "McLaren",
-     "points": 144
+     "points": 150
     },
     {
      "pos": 8,
@@ -390,13 +390,13 @@
      "pos": 9,
      "name": "Liam Lawson",
      "team": "Racing Bulls",
-     "points": 77
+     "points": 79
     },
     {
      "pos": 10,
      "name": "Pierre Gasly",
      "team": "Alpine",
-     "points": 42
+     "points": 43
     },
     {
      "pos": 11,
@@ -408,7 +408,7 @@
      "pos": 12,
      "name": "Franco Colapinto",
      "team": "Alpine",
-     "points": 27
+     "points": 31
     },
     {
      "pos": 13,
@@ -472,14 +472,14 @@
     },
     {
      "pos": 23,
-     "name": "Sergio Pérez",
-     "team": "Cadillac",
+     "name": "Ryo Hirakawa",
+     "team": "Haas",
      "points": 0
     },
     {
      "pos": 24,
-     "name": "Ryo Hirakawa",
-     "team": "Haas",
+     "name": "Sergio Pérez",
+     "team": "Cadillac",
      "points": 0
     }
    ],
@@ -487,32 +487,32 @@
     {
      "pos": 1,
      "team": "Mercedes",
-     "points": 607
+     "points": 630
     },
     {
      "pos": 2,
      "team": "Ferrari",
-     "points": 474
+     "points": 504
     },
     {
      "pos": 3,
      "team": "Red Bull Racing",
-     "points": 355
+     "points": 380
     },
     {
      "pos": 4,
      "team": "McLaren",
-     "points": 355
+     "points": 371
     },
     {
      "pos": 5,
      "team": "Racing Bulls",
-     "points": 102
+     "points": 104
     },
     {
      "pos": 6,
      "team": "Alpine",
-     "points": 69
+     "points": 74
     },
     {
      "pos": 7,
@@ -541,12 +541,12 @@
     }
    ],
    "lastRace": {
-    "name": "United States Grand Prix",
-    "date": "2026-10-25",
+    "name": "Mexico City Grand Prix",
+    "date": "2026-11-01",
     "podium": [
-     "Andrea Kimi Antonelli · Mercedes",
-     "Charles Leclerc · Ferrari",
-     "Max Verstappen · Red Bull Racing"
+     "Max Verstappen · Red Bull Racing",
+     "Lewis Hamilton · Ferrari",
+     "Andrea Kimi Antonelli · Mercedes"
     ]
    },
    "completed": [
@@ -657,15 +657,15 @@
      "name": "United States Grand Prix",
      "place": "Circuit of the Americas, Austin",
      "sprint": false
-    }
-   ],
-   "upcoming": [
+    },
     {
      "date": "2026-11-01",
      "name": "Mexico City Grand Prix",
      "place": "Autódromo Hermanos Rodríguez, Mexico City",
      "sprint": false
-    },
+    }
+   ],
+   "upcoming": [
     {
      "date": "2026-11-08",
      "name": "Brazilian Grand Prix",
@@ -691,7 +691,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-01T18:58:37.871Z"
+   "updated": "2026-11-02T06:19:07.491Z"
   }
  ]
 }
