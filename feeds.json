@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:14:55.469Z",
+ "updated": "2026-11-04T19:50:43.587Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -38,10 +38,19 @@
     ]
    },
    "ucl": {
-    "pos": 5,
-    "points": 9
+    "pos": 2,
+    "points": 12
    },
    "recent": [
+    {
+     "date": "2026-11-04",
+     "home": "AEK Athens",
+     "away": "Real Madrid",
+     "hs": 2,
+     "as": 3,
+     "comp": "Champions League",
+     "scorers": "Bellingham 32', Mbappé 78', Valverde 90'+2'"
+    },
     {
      "date": "2026-11-01",
      "home": "Racing Santander",
@@ -86,25 +95,9 @@
      "as": 4,
      "comp": "Champions League",
      "scorers": "Mbappé 25', Espí 83', Endrick 85', Rüdiger 90'"
-    },
-    {
-     "date": "2026-10-10",
-     "home": "Real Madrid",
-     "away": "Villarreal",
-     "hs": 1,
-     "as": 0,
-     "comp": "La Liga",
-     "scorers": "Diomande 62'"
     }
    ],
    "upcoming": [
-    {
-     "date": "2026-11-04",
-     "time": "09:45 PT",
-     "home": "AEK Athens",
-     "away": "Real Madrid",
-     "comp": "Champions League"
-    },
     {
      "date": "2026-11-07",
      "time": "12:00 PT",
@@ -330,7 +323,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-04T12:14:55.469Z"
+   "updated": "2026-11-04T19:50:43.587Z"
   },
   {
    "id": "f1",
@@ -691,7 +684,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-04T12:14:55.469Z"
+   "updated": "2026-11-04T19:50:43.587Z"
   }
  ]
 }
