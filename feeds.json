@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-05T09:35:24.096Z",
+ "updated": "2026-11-06T15:58:54.434Z",
  "feeds": [
   {
    "id": "realmadrid",
-   "asOf": "Nov 5, 2026",
+   "asOf": "Nov 6, 2026",
    "coach": "José Mourinho",
    "liga": {
     "pos": 3,
@@ -120,10 +120,17 @@
      "comp": "Champions League"
     },
     {
-     "date": "2026-11-29",
-     "time": "",
+     "date": "2026-11-28",
+     "time": "12:00 PT",
      "home": "Real Madrid",
      "away": "Alavés",
+     "comp": "La Liga"
+    },
+    {
+     "date": "2026-12-02",
+     "time": "10:00 PT",
+     "home": "Real Sociedad",
+     "away": "Real Madrid",
      "comp": "La Liga"
     },
     {
@@ -209,13 +216,6 @@
      "home": "Real Sociedad",
      "away": "Real Madrid",
      "comp": "Supercopa"
-    },
-    {
-     "date": "2027-02-07",
-     "time": "",
-     "home": "Real Sociedad",
-     "away": "Real Madrid",
-     "comp": "La Liga"
     },
     {
      "date": "2027-02-14",
@@ -323,7 +323,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-05T09:35:24.096Z"
+   "updated": "2026-11-06T15:58:54.434Z"
   },
   {
    "id": "f1",
@@ -684,7 +684,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-05T09:35:24.096Z"
+   "updated": "2026-11-06T15:58:54.434Z"
   }
  ]
 }
