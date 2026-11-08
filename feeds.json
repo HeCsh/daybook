@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-07T08:52:47.645Z",
+ "updated": "2026-11-08T01:28:28.819Z",
  "feeds": [
   {
    "id": "realmadrid",
    "asOf": "Nov 7, 2026",
    "coach": "José Mourinho",
    "liga": {
-    "pos": 3,
-    "points": 27,
-    "played": 11,
+    "pos": 2,
+    "points": 30,
+    "played": 12,
     "top5": [
      {
       "pos": 1,
@@ -17,13 +17,13 @@
      },
      {
       "pos": 2,
-      "team": "Atlético Madrid",
-      "points": 28
+      "team": "Real Madrid",
+      "points": 30
      },
      {
       "pos": 3,
-      "team": "Real Madrid",
-      "points": 27
+      "team": "Atlético Madrid",
+      "points": 28
      },
      {
       "pos": 4,
@@ -42,6 +42,15 @@
     "points": 12
    },
    "recent": [
+    {
+     "date": "2026-11-07",
+     "home": "Valencia",
+     "away": "Real Madrid",
+     "hs": 0,
+     "as": 3,
+     "comp": "La Liga",
+     "scorers": "Valverde 28', Güler 36', Mbappé 75'"
+    },
     {
      "date": "2026-11-04",
      "home": "AEK Athens",
@@ -86,25 +95,9 @@
      "as": 1,
      "comp": "La Liga",
      "scorers": "Güler 30', Mbappé 37', 63' pen, Diomande 82'"
-    },
-    {
-     "date": "2026-10-14",
-     "home": "AS Roma",
-     "away": "Real Madrid",
-     "hs": 3,
-     "as": 4,
-     "comp": "Champions League",
-     "scorers": "Mbappé 25', Espí 83', Endrick 85', Rüdiger 90'"
     }
    ],
    "upcoming": [
-    {
-     "date": "2026-11-07",
-     "time": "12:00 PT",
-     "home": "Valencia",
-     "away": "Real Madrid",
-     "comp": "La Liga"
-    },
     {
      "date": "2026-11-21",
      "time": "12:00 PT",
@@ -323,12 +316,12 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-07T08:52:47.645Z"
+   "updated": "2026-11-08T01:28:28.819Z"
   },
   {
    "id": "f1",
    "asOf": "after the Mexico City GP (Nov 1)",
-   "round": 19,
+   "round": 20,
    "totalRounds": 23,
    "drivers": [
     {
@@ -473,6 +466,12 @@
      "pos": 24,
      "name": "Sergio Pérez",
      "team": "Cadillac",
+     "points": 0
+    },
+    {
+     "pos": 25,
+     "name": "Rafael Camara",
+     "team": "Haas",
      "points": 0
     }
    ],
@@ -684,7 +683,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-07T08:52:47.645Z"
+   "updated": "2026-11-08T01:28:28.819Z"
   }
  ]
 }
