@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:42:42.618Z",
+ "updated": "2026-11-08T22:13:43.560Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -13,7 +13,7 @@
      {
       "pos": 1,
       "team": "Barcelona",
-      "points": 30
+      "points": 33
      },
      {
       "pos": 2,
@@ -33,7 +33,7 @@
      {
       "pos": 5,
       "team": "Real Sociedad",
-      "points": 19
+      "points": 22
      }
     ]
    },
@@ -316,11 +316,11 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-08T16:42:42.618Z"
+   "updated": "2026-11-08T22:13:43.560Z"
   },
   {
    "id": "f1",
-   "asOf": "after the Mexico City GP (Nov 1)",
+   "asOf": "after the Brazilian GP (Nov 8)",
    "round": 20,
    "totalRounds": 23,
    "drivers": [
@@ -328,55 +328,55 @@
      "pos": 1,
      "name": "Andrea Kimi Antonelli",
      "team": "Mercedes",
-     "points": 380
+     "points": 390
     },
     {
      "pos": 2,
      "name": "Max Verstappen",
      "team": "Red Bull Racing",
-     "points": 261
+     "points": 279
     },
     {
      "pos": 3,
-     "name": "Lewis Hamilton",
-     "team": "Ferrari",
-     "points": 259
+     "name": "George Russell",
+     "team": "Mercedes",
+     "points": 262
     },
     {
      "pos": 4,
-     "name": "George Russell",
-     "team": "Mercedes",
-     "points": 250
+     "name": "Lewis Hamilton",
+     "team": "Ferrari",
+     "points": 261
     },
     {
      "pos": 5,
      "name": "Charles Leclerc",
      "team": "Ferrari",
-     "points": 245
+     "points": 251
     },
     {
      "pos": 6,
      "name": "Lando Norris",
      "team": "McLaren",
-     "points": 221
+     "points": 246
     },
     {
      "pos": 7,
      "name": "Oscar Piastri",
      "team": "McLaren",
-     "points": 144
+     "points": 152
     },
     {
      "pos": 8,
      "name": "Isack Hadjar",
      "team": "Red Bull Racing",
-     "points": 107
+     "points": 122
     },
     {
      "pos": 9,
      "name": "Liam Lawson",
      "team": "Racing Bulls",
-     "points": 83
+     "points": 87
     },
     {
      "pos": 10,
@@ -412,7 +412,7 @@
      "pos": 15,
      "name": "Nico Hülkenberg",
      "team": "Audi",
-     "points": 13
+     "points": 14
     },
     {
      "pos": 16,
@@ -479,27 +479,27 @@
     {
      "pos": 1,
      "team": "Mercedes",
-     "points": 630
+     "points": 652
     },
     {
      "pos": 2,
      "team": "Ferrari",
-     "points": 504
+     "points": 512
     },
     {
      "pos": 3,
      "team": "Red Bull Racing",
-     "points": 382
+     "points": 415
     },
     {
      "pos": 4,
      "team": "McLaren",
-     "points": 365
+     "points": 398
     },
     {
      "pos": 5,
      "team": "Racing Bulls",
-     "points": 108
+     "points": 112
     },
     {
      "pos": 6,
@@ -514,7 +514,7 @@
     {
      "pos": 8,
      "team": "Audi",
-     "points": 27
+     "points": 28
     },
     {
      "pos": 9,
@@ -533,12 +533,12 @@
     }
    ],
    "lastRace": {
-    "name": "Mexico City Grand Prix",
-    "date": "2026-11-01",
+    "name": "Brazilian Grand Prix",
+    "date": "2026-11-08",
     "podium": [
+     "Lando Norris · McLaren",
      "Max Verstappen · Red Bull Racing",
-     "Lewis Hamilton · Ferrari",
-     "Andrea Kimi Antonelli · Mercedes"
+     "Isack Hadjar · Red Bull Racing"
     ]
    },
    "completed": [
@@ -655,15 +655,15 @@
      "name": "Mexico City Grand Prix",
      "place": "Autódromo Hermanos Rodríguez, Mexico City",
      "sprint": false
-    }
-   ],
-   "upcoming": [
+    },
     {
      "date": "2026-11-08",
      "name": "Brazilian Grand Prix",
      "place": "Autódromo José Carlos Pace, São Paulo",
      "sprint": false
-    },
+    }
+   ],
+   "upcoming": [
     {
      "date": "2026-11-22",
      "name": "Las Vegas Grand Prix",
@@ -683,7 +683,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-08T16:42:42.618Z"
+   "updated": "2026-11-08T22:13:43.560Z"
   }
  ]
 }
