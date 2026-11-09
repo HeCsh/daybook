@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T22:13:43.560Z",
+ "updated": "2026-11-09T01:45:12.958Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -316,7 +316,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-08T22:13:43.560Z"
+   "updated": "2026-11-09T01:45:12.958Z"
   },
   {
    "id": "f1",
@@ -352,7 +352,7 @@
      "pos": 5,
      "name": "Charles Leclerc",
      "team": "Ferrari",
-     "points": 251
+     "points": 249
     },
     {
      "pos": 6,
@@ -376,7 +376,7 @@
      "pos": 9,
      "name": "Liam Lawson",
      "team": "Racing Bulls",
-     "points": 87
+     "points": 89
     },
     {
      "pos": 10,
@@ -484,7 +484,7 @@
     {
      "pos": 2,
      "team": "Ferrari",
-     "points": 512
+     "points": 510
     },
     {
      "pos": 3,
@@ -499,7 +499,7 @@
     {
      "pos": 5,
      "team": "Racing Bulls",
-     "points": 112
+     "points": 114
     },
     {
      "pos": 6,
@@ -683,7 +683,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-08T22:13:43.560Z"
+   "updated": "2026-11-09T01:45:12.958Z"
   }
  ]
 }
