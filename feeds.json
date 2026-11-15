@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:33:19.550Z",
+ "updated": "2026-11-15T22:54:52.587Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -128,7 +128,7 @@
     },
     {
      "date": "2026-12-06",
-     "time": "",
+     "time": "07:15 PT",
      "home": "Athletic Club",
      "away": "Real Madrid",
      "comp": "La Liga"
@@ -316,7 +316,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-15T09:33:19.550Z"
+   "updated": "2026-11-15T22:54:52.587Z"
   },
   {
    "id": "f1",
@@ -683,7 +683,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-15T09:33:19.550Z"
+   "updated": "2026-11-15T22:54:52.587Z"
   }
  ]
 }
