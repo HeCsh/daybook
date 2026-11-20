@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-19T10:27:15.173Z",
+ "updated": "2026-11-20T13:03:14.889Z",
  "feeds": [
   {
    "id": "realmadrid",
-   "asOf": "Nov 19, 2026",
+   "asOf": "Nov 20, 2026",
    "coach": "José Mourinho",
    "liga": {
     "pos": 2,
@@ -316,7 +316,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-19T10:27:15.173Z"
+   "updated": "2026-11-20T13:03:14.889Z"
   },
   {
    "id": "f1",
@@ -683,7 +683,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-19T10:27:15.173Z"
+   "updated": "2026-11-20T13:03:14.889Z"
   }
  ]
 }
