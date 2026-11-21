@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T13:03:14.889Z",
+ "updated": "2026-11-21T12:45:16.013Z",
  "feeds": [
   {
    "id": "realmadrid",
-   "asOf": "Nov 20, 2026",
+   "asOf": "Nov 21, 2026",
    "coach": "José Mourinho",
    "liga": {
     "pos": 2,
@@ -316,12 +316,12 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-20T13:03:14.889Z"
+   "updated": "2026-11-21T12:45:16.013Z"
   },
   {
    "id": "f1",
    "asOf": "after the Brazilian GP (Nov 8)",
-   "round": 20,
+   "round": 21,
    "totalRounds": 23,
    "drivers": [
     {
@@ -683,7 +683,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-20T13:03:14.889Z"
+   "updated": "2026-11-21T12:45:16.013Z"
   }
  ]
 }
