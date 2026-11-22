@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:52:15.554Z",
+ "updated": "2026-11-22T17:52:12.711Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -13,7 +13,7 @@
      {
       "pos": 1,
       "team": "Barcelona",
-      "points": 33
+      "points": 36
      },
      {
       "pos": 2,
@@ -309,11 +309,11 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-22T09:52:15.554Z"
+   "updated": "2026-11-22T17:52:12.711Z"
   },
   {
    "id": "f1",
-   "asOf": "after the Brazilian GP (Nov 8)",
+   "asOf": "after the Las Vegas GP (Nov 22)",
    "round": 21,
    "totalRounds": 23,
    "drivers": [
@@ -321,43 +321,43 @@
      "pos": 1,
      "name": "Andrea Kimi Antonelli",
      "team": "Mercedes",
-     "points": 390
+     "points": 402
     },
     {
      "pos": 2,
      "name": "Max Verstappen",
      "team": "Red Bull Racing",
-     "points": 279
+     "points": 304
     },
     {
      "pos": 3,
-     "name": "George Russell",
-     "team": "Mercedes",
-     "points": 262
+     "name": "Lewis Hamilton",
+     "team": "Ferrari",
+     "points": 267
     },
     {
      "pos": 4,
-     "name": "Lewis Hamilton",
-     "team": "Ferrari",
-     "points": 261
+     "name": "George Russell",
+     "team": "Mercedes",
+     "points": 264
     },
     {
      "pos": 5,
-     "name": "Charles Leclerc",
-     "team": "Ferrari",
-     "points": 249
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "points": 264
     },
     {
      "pos": 6,
-     "name": "Lando Norris",
-     "team": "McLaren",
-     "points": 246
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "points": 250
     },
     {
      "pos": 7,
      "name": "Oscar Piastri",
      "team": "McLaren",
-     "points": 152
+     "points": 167
     },
     {
      "pos": 8,
@@ -375,7 +375,7 @@
      "pos": 10,
      "name": "Pierre Gasly",
      "team": "Alpine",
-     "points": 42
+     "points": 52
     },
     {
      "pos": 11,
@@ -387,7 +387,7 @@
      "pos": 12,
      "name": "Franco Colapinto",
      "team": "Alpine",
-     "points": 27
+     "points": 35
     },
     {
      "pos": 13,
@@ -409,20 +409,20 @@
     },
     {
      "pos": 16,
+     "name": "Carlos Sainz",
+     "team": "Williams",
+     "points": 11
+    },
+    {
+     "pos": 17,
      "name": "Esteban Ocon",
      "team": "Haas",
      "points": 7
     },
     {
-     "pos": 17,
+     "pos": 18,
      "name": "Fernando Alonso",
      "team": "Aston Martin",
-     "points": 7
-    },
-    {
-     "pos": 18,
-     "name": "Carlos Sainz",
-     "team": "Williams",
      "points": 7
     },
     {
@@ -472,22 +472,22 @@
     {
      "pos": 1,
      "team": "Mercedes",
-     "points": 652
+     "points": 666
     },
     {
      "pos": 2,
      "team": "Ferrari",
-     "points": 510
+     "points": 517
     },
     {
      "pos": 3,
      "team": "Red Bull Racing",
-     "points": 415
+     "points": 440
     },
     {
      "pos": 4,
      "team": "McLaren",
-     "points": 398
+     "points": 431
     },
     {
      "pos": 5,
@@ -497,7 +497,7 @@
     {
      "pos": 6,
      "team": "Alpine",
-     "points": 69
+     "points": 87
     },
     {
      "pos": 7,
@@ -512,7 +512,7 @@
     {
      "pos": 9,
      "team": "Williams",
-     "points": 12
+     "points": 16
     },
     {
      "pos": 10,
@@ -526,12 +526,12 @@
     }
    ],
    "lastRace": {
-    "name": "Brazilian Grand Prix",
-    "date": "2026-11-08",
+    "name": "Las Vegas Grand Prix",
+    "date": "2026-11-22",
     "podium": [
-     "Lando Norris · McLaren",
      "Max Verstappen · Red Bull Racing",
-     "Isack Hadjar · Red Bull Racing"
+     "Lando Norris · McLaren",
+     "Oscar Piastri · McLaren"
     ]
    },
    "completed": [
@@ -654,15 +654,15 @@
      "name": "Brazilian Grand Prix",
      "place": "Autódromo José Carlos Pace, São Paulo",
      "sprint": false
-    }
-   ],
-   "upcoming": [
+    },
     {
      "date": "2026-11-22",
      "name": "Las Vegas Grand Prix",
      "place": "Las Vegas Strip Street Circuit, Las Vegas",
      "sprint": false
-    },
+    }
+   ],
+   "upcoming": [
     {
      "date": "2026-11-29",
      "name": "Qatar Grand Prix",
@@ -676,7 +676,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-22T09:52:15.554Z"
+   "updated": "2026-11-22T17:52:12.711Z"
   }
  ]
 }
