@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:34:17.107Z",
+ "updated": "2026-11-22T02:18:06.871Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -7,8 +7,8 @@
    "coach": "José Mourinho",
    "liga": {
     "pos": 2,
-    "points": 30,
-    "played": 12,
+    "points": 33,
+    "played": 13,
     "top5": [
      {
       "pos": 1,
@@ -18,7 +18,7 @@
      {
       "pos": 2,
       "team": "Real Madrid",
-      "points": 30
+      "points": 33
      },
      {
       "pos": 3,
@@ -42,6 +42,15 @@
     "points": 12
    },
    "recent": [
+    {
+     "date": "2026-11-21",
+     "home": "Real Madrid",
+     "away": "Celta Vigo",
+     "hs": 2,
+     "as": 1,
+     "comp": "La Liga",
+     "scorers": "Bellingham 66', Espí 85'"
+    },
     {
      "date": "2026-11-07",
      "home": "Valencia",
@@ -86,25 +95,9 @@
      "as": 1,
      "comp": "Champions League",
      "scorers": "Silva 43', Güler 52', Mbappé 83', Diomande 87'"
-    },
-    {
-     "date": "2026-10-18",
-     "home": "Real Madrid",
-     "away": "Sevilla",
-     "hs": 4,
-     "as": 1,
-     "comp": "La Liga",
-     "scorers": "Güler 30', Mbappé 37', 63' pen, Diomande 82'"
     }
    ],
    "upcoming": [
-    {
-     "date": "2026-11-21",
-     "time": "12:00 PT",
-     "home": "Real Madrid",
-     "away": "Celta Vigo",
-     "comp": "La Liga"
-    },
     {
      "date": "2026-11-24",
      "time": "12:00 PT",
@@ -316,7 +309,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-21T20:34:17.107Z"
+   "updated": "2026-11-22T02:18:06.871Z"
   },
   {
    "id": "f1",
@@ -683,7 +676,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-21T20:34:17.107Z"
+   "updated": "2026-11-22T02:18:06.871Z"
   }
  ]
 }
