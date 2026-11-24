@@ -24,8 +24,14 @@ if (pw.length < 10) { console.error('Use at least 10 characters.'); process.exit
 
 const app = fs.readFileSync(path.join(__dirname, '..', 'hibi.html'), 'utf8').replace(/^\s*<title>[^<]*<\/title>\s*/, '');
 const seed = fs.existsSync(path.join(__dirname, 'seed.json')) ? fs.readFileSync(path.join(__dirname, 'seed.json'), 'utf8') : '{"feeds":[]}';
+/* Cloud sync: a fine-grained GitHub token (contents read/write on the private HeCsh/daybook-data repo only), kept in the macOS
+   Keychain by set-sync-token.js. It goes inside the encrypted page, so only someone with the password can read it. */
+const tok = spawnSync('security', ['find-generic-password', '-s', 'daybook-sync-token', '-w'], { encoding: 'utf8' });
+const syncCfg = tok.status === 0 && tok.stdout.trim() ? { repo: 'HeCsh/daybook-data', path: 'daybook.json', token: tok.stdout.trim() } : null;
+console.log(syncCfg ? 'Cloud sync: on.' : 'Cloud sync: off (no token in the Keychain; run node set-sync-token.js).');
 const page = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><title>Daybook</title></head><body>
 <script>window.DAYBOOK_SEED=${seed.replace(/</g, '\\u003c')};</script>
+${syncCfg ? `<script>window.DAYBOOK_SYNC=${JSON.stringify(syncCfg)};</script>` : ''}
 ${app}
 <script>(() => { const f = document.querySelector('.foot'); if (!f) return; const b = document.createElement('button'); b.className = 'pill'; b.textContent = 'Lock'; b.title = 'Ask for the password again'; b.onclick = () => { try { sessionStorage.removeItem('dbk'); } catch {} location.reload(); }; f.appendChild(b); })();</script>
 </body></html>`;
