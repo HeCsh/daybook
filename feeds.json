@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:53:17.781Z",
+ "updated": "2026-11-25T02:33:53.719Z",
  "feeds": [
   {
    "id": "realmadrid",
@@ -38,10 +38,19 @@
     ]
    },
    "ucl": {
-    "pos": 2,
-    "points": 12
+    "pos": 1,
+    "points": 15
    },
    "recent": [
+    {
+     "date": "2026-11-24",
+     "home": "Real Madrid",
+     "away": "PSV Eindhoven",
+     "hs": 5,
+     "as": 1,
+     "comp": "Champions League",
+     "scorers": "Valverde 50', Bellingham 60', Mbappé 64', 84', Júnior 87'"
+    },
     {
      "date": "2026-11-21",
      "home": "Real Madrid",
@@ -86,25 +95,9 @@
      "as": 2,
      "comp": "La Liga · El Clásico",
      "scorers": "Mbappé 41', 87'"
-    },
-    {
-     "date": "2026-10-21",
-     "home": "Real Madrid",
-     "away": "RB Leipzig",
-     "hs": 4,
-     "as": 1,
-     "comp": "Champions League",
-     "scorers": "Silva 43', Güler 52', Mbappé 83', Diomande 87'"
     }
    ],
    "upcoming": [
-    {
-     "date": "2026-11-24",
-     "time": "12:00 PT",
-     "home": "Real Madrid",
-     "away": "PSV Eindhoven",
-     "comp": "Champions League"
-    },
     {
      "date": "2026-11-28",
      "time": "12:00 PT",
@@ -309,7 +302,7 @@
      "comp": "La Liga"
     }
    ],
-   "updated": "2026-11-24T17:53:17.781Z"
+   "updated": "2026-11-25T02:33:53.719Z"
   },
   {
    "id": "f1",
@@ -676,7 +669,7 @@
      "sprint": false
     }
    ],
-   "updated": "2026-11-24T17:53:17.781Z"
+   "updated": "2026-11-25T02:33:53.719Z"
   }
  ]
 }
